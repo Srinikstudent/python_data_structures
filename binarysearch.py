@@ -29,9 +29,9 @@ if querry_index1 == test1['output']:
 else:
     print('TEST1 FAILED')
 
-test1 = {'input':{'list1':list1,'querry': 2},'output':7}
-querry_index2=locate_number(test1['input']['list1'],test1['input']['querry'])
-if querry_index2 == test1['output']:
+test2 = {'input':{'list1':list1,'querry': 2},'output':7}
+querry_index2=locate_number(test2['input']['list1'],test2['input']['querry'])
+if querry_index2 == test2['output']:
     print('TEST2 PASSED')
 else:
     print('TEST2 FAILED')
